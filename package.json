@@ -1,0 +1,35 @@
+{
+  "name": "theme-geek-dark",
+  "version": "1.0.0",
+  "description": "TB official theme",
+  "scripts": {
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+  },
+  "pre-commit": [
+    "precommit-msg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TB-blog/theme-geek-dark.git"
+  },
+  "keywords": [
+    "tb",
+    "tb-cli",
+    "theme"
+  ],
+  "author": "Trevor <xizhouh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TB-blog/theme-geek-dark/issues"
+  },
+  "homepage": "https://github.com/TB-blog/theme-geek-dark#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "pre-commit": "^1.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
