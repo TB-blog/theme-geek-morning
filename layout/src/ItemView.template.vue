@@ -30,3 +30,7 @@
     </template>
   </div>
 </template>
+
+<script>
+import 'highlight.js/styles/agate.css';
+</script>
