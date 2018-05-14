@@ -4,7 +4,7 @@ An official theme designed for TB.
 
 <p align="center">
   <a href="https://github.com/TB-blog/theme-geek-morning" target="_blank">
-    <img src="screenshoot.png" width="700px">
+    <img src="screenshot.png" width="700px">
     <br>
     Source code
   </a>
